@@ -15,3 +15,7 @@ try:
             indent += 1  # Move to the right by increasing indentation
             if indent == 20: # If it reaches the far right limit
                 indentIncreasing = False  # Change direction 
+        else:
+            indent -= 1  # Move to the left by decreasing indentation
+            if indent == 0:  # If it reaches the far left limit
+                indentIncreasing = True  # Change direction to move right again
