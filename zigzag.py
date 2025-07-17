@@ -19,3 +19,7 @@ try:
             indent -= 1  # Move to the left by decreasing indentation
             if indent == 0:  # If it reaches the far left limit
                 indentIncreasing = True  # Change direction to move right again
+
+# Allow the user to interrupt the animation with Ctrl+C
+except KeyboardInterrupt:
+    sys.exit()  # Exit the program gracefully
