@@ -2,6 +2,11 @@
 import time  # For adding delay between prints
 import sys   # For exiting the program gracefully
 
+# Introduce constants
+MAX_INDENT = 20      # Maximum number of spaces before changing direction
+DISPLAY_STRING = '********'  # The animated string to display
+DELAY = 0.1          # Delay in seconds between frames
+
 # Initialize indentation settings
 indent = 0 # How many spaces to indent
 indentIncreasing = True # Whether the indentation is increasing or not
