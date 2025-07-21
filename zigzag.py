@@ -1,3 +1,7 @@
+# Import necessary modules
+import time  # For adding delay between prints
+import sys   # For exiting the program gracefully
+
 # Initialize indentation settings
 indent = 0 # How many spaces to indent
 indentIncreasing = True # Whether the indentation is increasing or not
